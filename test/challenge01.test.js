@@ -16,7 +16,7 @@ describe('Challenge 1 Test', () => {
     expect(wrapped.length).toBe(0)
   })
 
-  it('should ', () => {
+  it('should wrap gift', () => {
     const gifts = ['cat', 'game', 'socks']
     const wrapped = wrapping(gifts)
     const mockWrapped = [
