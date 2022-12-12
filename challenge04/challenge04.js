@@ -15,4 +15,11 @@ export function fitsInOneBox (boxes) {
     return false
   }
   return true
+
+  Solution without sorting array and without using while cycle
+  return boxes.every((box, index, array) => {
+    array.splice(index, 1)
+    return array.every(b => (b.l < box.l && b.w < box.w && b.h < box.h) ||
+        (b.l > box.l && b.w > box.w && b.h > box.h))
+  })
  */
