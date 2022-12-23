@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest'
 import { getOptimalPath } from '../challenge14/challenge14.js'
 
-describe('Challenge 13 Test', () => {
+describe('Challenge 14 Test', () => {
   it('should be a function', () => {
     expect(typeof getOptimalPath).toBe('function')
   })

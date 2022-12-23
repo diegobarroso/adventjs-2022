@@ -2,7 +2,7 @@ import { describe, expect, it } from 'vitest'
 import { dryNumber } from '../challenge18/challenge18.js'
 import { compareArrays } from '../utils/compare-arrays'
 
-describe('Challenge 11 Test', () => {
+describe('Challenge 18 Test', () => {
   it('should be a function', () => {
     expect(typeof dryNumber).toBe('function')
   })

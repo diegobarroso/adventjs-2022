@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest'
 import { selectSleigh } from '../challenge12/challenge12.js'
 
-describe('Challenge 11 Test', () => {
+describe('Challenge 12 Test', () => {
   it('should be a function', () => {
     expect(typeof selectSleigh).toBe('function')
   })
